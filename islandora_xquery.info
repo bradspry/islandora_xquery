@@ -6,6 +6,7 @@ core = 7.x
 configure = admin/islandora/tools/xquery/manage
 dependencies[] = islandora
 dependencies[] = islandora_solr
+dependencies[] = islandora_solr_search (>=7.x-1.4)
 dependencies[] = libraries
 dependencies[] = islandora_object_lock
 files[] = tests/xquery.test
